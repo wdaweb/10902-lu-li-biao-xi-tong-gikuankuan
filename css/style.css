@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+
+.contaner{
+    width: 70%;
+    height: 720px;
+    background: #bbb;
+    margin: auto;
+}
