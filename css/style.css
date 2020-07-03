@@ -3,8 +3,31 @@ body{
 }
 
 .contaner{
-    width: 70%;
+    width: 720px;
     height: 720px;
     background: #bbb;
     margin: auto;
+}
+.menu{
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+
+}
+.main{
+    margin: auto 50px 50px;
+    padding: 10px;
+}
+.tag{
+    width: 100px;
+    height: 50px;
+    background: lightgoldenrodyellow;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: black  10px 3px 3px;
+}
+.tag:hover{
+    background: cadetblue;
 }
