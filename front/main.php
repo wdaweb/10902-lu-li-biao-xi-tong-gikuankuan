@@ -12,7 +12,7 @@ $rows = $pdo->query($sql)->fetchAll();
 foreach ($rows as $row) {
 ?>
 
-<div><h3>
+<div class="center"><h3>
 <?= $row['title']; ?>
 </h3>
 </div>
@@ -20,11 +20,11 @@ foreach ($rows as $row) {
 <div>
 
 
-<img src="./" alt="">
+<img src="img/1.jpg" alt="" style="width: 200px;" class="center">
 </div>
 
 
-<div>
+<div class="center">
 <?= $row['text']; ?>
 </div>
 <?php } ?>
