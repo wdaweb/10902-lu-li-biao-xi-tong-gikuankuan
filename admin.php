@@ -23,12 +23,12 @@
 
 
     <!-- 首頁 -->
-    <div class="menu">
-        <button><a href="admin.php">管理葉面</a></button>
-            <div class="tag"><a href="?do=main">個人資料</a></div>
-            <div class="tag"><a href="?do=skill">能力/技能</a></div>
-            <div class="tag"><a href="?do=story">經歷</a></div>
-            <div class="tag"><a href="?do=work">作品集</a></div>
+    <h3>新增/修改/刪除</h3>
+        <div class="menu">
+            <div class="tag"><a href="?do=ed_main">個人資料</a></div>
+            <div class="tag"><a href="?do=ed_skill">能力/技能</a></div>
+            <div class="tag"><a href="?do=ed_story">經歷</a></div>
+            <div class="tag"><a href="?do=ed_work">作品集</a></div>
         </div>
     <div class="contaner">
 
