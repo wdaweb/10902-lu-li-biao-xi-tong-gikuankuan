@@ -35,12 +35,12 @@
 
             <div class="main">
 						<?php
-						$do = (!empty($_GET['do'])) ? $_GET['do'] : "main";
-						$file = "front/" . $do . ".php";
+						$do = (!empty($_GET['do'])) ? $_GET['do'] : "ed_main";
+						$file = "backend/" . $do . ".php";
 						if (file_exists($file)) {
 							include $file;
 						} else {
-							include "front/main.php";
+							include "backend/ed_main.php";
 						}
 						?>
 			</div>

@@ -18,37 +18,38 @@
 </head>
 
 <body>
-    
+
     <!-- 導覽列 -->
 
 
     <!-- 首頁 -->
     <div class="menu">
         <button><a href="admin.php">管理葉面</a></button>
-            <div class="tag"><a href="?do=main">個人資料</a></div>
-            <div class="tag"><a href="?do=skill">能力/技能</a></div>
-            <div class="tag"><a href="?do=story">經歷</a></div>
-            <div class="tag"><a href="?do=work">作品集</a></div>
-        </div>
+        <div class="tag"><a href="?do=login">帳號登入</a></div>
+        <div class="tag"><a href="?do=main">個人資料</a></div>
+        <div class="tag"><a href="?do=skill">能力/技能</a></div>
+        <div class="tag"><a href="?do=story">經歷</a></div>
+        <div class="tag"><a href="?do=work">作品集</a></div>
+    </div>
     <div class="contaner">
 
 
-            <div class="main">
-						<?php
-						$do = (!empty($_GET['do'])) ? $_GET['do'] : "main";
-						$file = "front/" . $do . ".php";
-						if (file_exists($file)) {
-							include $file;
-						} else {
-							include "front/main.php";
-						}
-						?>
-			</div>
-            
-
+        <div class="main">
+            <?php
+            $do = (!empty($_GET['do'])) ? $_GET['do'] : "main";
+            $file = "front/" . $do . ".php";
+            if (file_exists($file)) {
+                include $file;
+            } else {
+                include "front/main.php";
+            }
+            ?>
         </div>
-        <div></div>
-        <div></div>
+
+
+    </div>
+    <div></div>
+    <div></div>
 
 
 
