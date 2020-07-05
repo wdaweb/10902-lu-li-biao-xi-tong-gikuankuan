@@ -18,42 +18,12 @@
 </head>
 
 <body>
-    <!-- <div style="width:90%;margin:20px auto 0px;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav" style="margin: auto;">
-                    <a class="nav-item nav-link active p-3" href="#">主頁
-                        <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link p-3" href="#">工作經歷</a>
-                    <a class="nav-item nav-link p-3" href="#">學經歷</a>
-                    <a class="nav-item nav-link p-3" href="#">作品集</a>
-                </div>
-            </div>
-        </nav>
-    </div> -->
+    
     <!-- 導覽列 -->
 
 
     <!-- 首頁 -->
     <div class="contaner">
-
-        <!-- <div style="display:flex;">
-            <div class="photo"> <img src="img/4W9A3920.jpg" alt="" style="width: 100%;"> </div>
-            <div class="introduction">
-                <div><h3>個人簡介</h3></div>
-                <div>
-                    大四進入總業建設資訊部實習，於畢業後正式加入公司。期間經歷辦公室搬移且規劃資訊設備規格及建置，也為公司建置檔案伺服器為重要資料做分級管理備份。
-                    並且也為公司規劃長期志工計畫，申請補助募資，並培訓大學生及公司同仁前往台灣偏鄉小學以及緬甸孤兒院，累計第四年（每年兩次）。
-                </div>
-            </div>
-         
-        </div>
-        <div>
-            <h3>技能列</h3> -->
 
             <div class="menu">
 				<div class="tag"><a href="?do=main">個人資料</a></div>
