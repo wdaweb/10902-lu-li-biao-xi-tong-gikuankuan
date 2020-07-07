@@ -17,7 +17,6 @@ foreach ($rows as $row) {
             <?= $row['title']; ?>
         </h2>
     </div>
-
     <div>
     <img src="img/1.jpg" alt="" style="width: 300px; height: 300px;border-radius: 150px; object-fit:cover;padding:10px " class="center">
     </div>
