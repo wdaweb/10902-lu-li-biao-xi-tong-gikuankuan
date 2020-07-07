@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional');
+
 body{
     margin: 0;
     text-align: center;
     background-image: url(/img/back.jfif);
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0F4A7D ;
+    
 }
+
 
 .contaner{
     width: 750px;
     height: 750px;
-    background: #bbb;
+    background: #F0EDE4
+
+    ;
     margin: -10px auto 10px;
     border-radius: 25px;
     box-shadow: black 10px 5px 5px ;

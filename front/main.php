@@ -12,19 +12,19 @@ $rows = $pdo->query($sql)->fetchAll();
 foreach ($rows as $row) {
 ?>
 
-<div class="center"><h3>
-<?= $row['title']; ?>
-</h3>
-</div>
+    <div class="center">
+        <h2>
+            <?= $row['title']; ?>
+        </h2>
+    </div>
 
-<div>
+    <div>
+    <img src="img/1.jpg" alt="" style="width: 300px; height: 300px;border-radius: 150px; object-fit:cover;padding:10px " class="center">
+    </div>
+    <div class="center" style="padding: 30px;">
+        <h5>
+            <?= $row['text']; ?>
+        </h5>
+    </div>
 
-
-<img src="img/1.jpg" alt="" style="width: 200px;" class="center">
-</div>
-
-
-<div class="center">
-<?= $row['text']; ?>
-</div>
 <?php } ?>

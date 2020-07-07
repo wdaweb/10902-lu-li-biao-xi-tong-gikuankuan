@@ -13,26 +13,25 @@ foreach ($rows as $row) {
 ?>
 
     <div class="center">
-        <h4>
+        <h2>
             <?= $row['work_name']; ?>
-        </h4>
+        </h2>
         <div>
-
             <p>
                 <?= $row['work']; ?>
             </p>
         </div>
-        <div><?= $row['proud'];?></div>
+        <div><?= $row['proud']; ?></div>
     </div>
-
-    <div class="center">
-        <h4>
+    </div>
+    <div class="center" style="padding: 20px;">
+        <h2>
             <?= $row['school_name']; ?>
-        </h4>
+        </h2>
         <p>
             <?= $row['school']; ?>
         </p>
-        <div><?= $row['proud'];?></div>
+        <div><?= $row['school_proud']; ?></div>
     </div>
 
 
