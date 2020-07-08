@@ -25,22 +25,22 @@ $rows = $pdo->query($sql)->fetchAll();
         <td style="width: 25%;">職稱</td>
         <td style="width: 20%;">顯示/刪除</td>
     </tr>
-
 <?php
 foreach ($rows as $row) {
 ?>
+<form action="api/story.php" method="POST">
     <tr>
         <td><?= $row['date']; ?></td>
         <td><?= $row['location']; ?></td>
         <td><?= $row['job']; ?></td>
-        <td><input type="checkbox" id="<?= $row['id']?>">顯示 <input type="checkbox" id="<?= $row['id']?>">刪除   </td>
+        <td><input type="checkbox" id="<?= $row['id']?>">顯示 <input type="checkbox" value="<?= $row['id']?>">刪除   </td>
     </tr>
     <?php } ?>
 </table>
 
 <hr>
 
-<form action="api/story.php" method="POST">
+
     <table>
 <tr>
         <td style="width: 25%;">時間</td>
@@ -48,13 +48,13 @@ foreach ($rows as $row) {
         <td style="width: 30%;">職稱</td>
     </tr>
     <tr>
-        <td ><input type="text"></td>
-        <td ><input type="text"></td>
-        <td ><input type="text"></td>
+        <td ><input type="text" name="date"></td>
+        <td ><input type="text" name="location"></td>
+        <td ><input type="text" name="job"></td>
       
     </tr>
     <tr>
-        <td rowspan="3">送出</td>
+        <td colspan="3"><input type="submit" value="送出"></td>
     </tr>
 </table>
 <form>

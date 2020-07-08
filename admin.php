@@ -23,7 +23,7 @@
 
 
     <!-- 首頁 -->
-    <h3>新增/修改/刪除</h3>
+    <h3>管理頁面</h3>
         <div class="menu">
             <div class="tag"><a href="?do=ed_main">個人資料</a></div>
             <div class="tag"><a href="?do=ed_skill">能力/技能</a></div>
