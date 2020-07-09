@@ -15,7 +15,7 @@ $data=[
 ];
 
 save($table,$data);
-to("../index.php");
+to("../backend/ed_skill.php");
 
 
 ?>

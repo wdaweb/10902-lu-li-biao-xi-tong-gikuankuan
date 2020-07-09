@@ -6,7 +6,7 @@ $rows = $pdo->query($sql)->fetchAll();
 ?>
 
 <h3>技能/證照</h3>
-<div style="height:250px;overflow:auto;">
+<div style="height:400px;overflow:auto;">
 <?php
 foreach ($rows as $row) {
 ?>
