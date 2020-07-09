@@ -33,7 +33,10 @@ foreach ($rows as $row) {
         <td><?= $row['date']; ?></td>
         <td><?= $row['location']; ?></td>
         <td><?= $row['job']; ?></td>
-        <td><input type="checkbox" id="<?= $row['id']?>">顯示 <input type="checkbox" value="<?= $row['id']?>">刪除   </td>
+        <td>
+        <input type="checkbox" name="sh[]" value="<?= $row['id']?>">顯示 
+        <input type="checkbox" name="del[]" value="<?= $row['id']?>">刪除   
+    </td>
     </tr>
     <?php } ?>
 </table>
