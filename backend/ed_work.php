@@ -57,7 +57,7 @@ $rows = $pdo->query($sql)->fetchAll();
 <div class="contant">
     <form style="margin: auto;" action="api/work.php" method="post">
     <div class="card">
-        <img class="card2" src="https://picsum.photos/50/50/?random=1">
+        <img class="card2" src="https://picsum.photos/100/100/?random=1">
         <p >更新名稱<input type="text" name="name"></p>
         <div class="btn">更新連結<input type="text" name="link"></div>
         <input style="position: absolute; top: 320px;" type="submit" value="送出">

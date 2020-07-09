@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
     <?php
     include_once "base.php";
     ?>
@@ -26,9 +27,10 @@
 
     <!-- 首頁 -->
     <div class="menu">
-        <button><a href="admin.php">管理葉面</a></button>
+        <!-- <button><a href="admin.php">管理頁面</a></button> -->
         <div class="tag"><a href="?do=login">帳號登入</a></div>
         <div class="tag"><a href="?do=main">個人資料</a></div>
+        <div class="tag"><a href="?do=my">自傳</a></div>
         <div class="tag"><a href="?do=skill">能力/技能</a></div>
         <div class="tag"><a href="?do=story">經歷</a></div>
         <div class="tag"><a href="?do=work">作品集</a></div>

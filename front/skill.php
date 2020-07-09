@@ -11,7 +11,7 @@ foreach ($rows as $row) {
 ?>
     <div style="align-items: center;">
 
-        <table style="width:60%;margin:auto;text-align:left">
+        <table style="width:60%;margin:0px auto;text-align:left">
             <tr style="width: 20%;text-align:center">
                 <td>
                     <h5>

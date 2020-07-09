@@ -11,30 +11,29 @@
 <?php
 include_once "./base.php";
 
-$sql = "select * from school where sh = 1  ";
+$sql = "select * from my where sh = 1  ";
 $rows = $pdo->query($sql)->fetchAll();
 ?>
 
 
 
-<h2>世新大學/總業建設</h2>
+<h2>我的自傳</h2>
+<form action="api/my.php" method="post">
 <table style="width:70%;margin:auto;text-align:left">
-<tr>
-        <td style="width: 30%;">時間</td>
-        <td style="width: 40%;">單位</td>
-        <td style="width: 30%;">職稱</td>
-    </tr>
-
 <?php
 foreach ($rows as $row) {
 ?>
     <tr>
-        <td><?= $row['date']; ?></td>
-        <td><?= $row['location']; ?></td>
-        <td><?= $row['job']; ?></td>
+        <td>
+            <textarea name="text" id="" cols="30" rows="10">
+                <?= $row['text']; ?>
+            </textarea>
+        </td>
     </tr>
     <?php } ?>
 </table>
+<input type="submit" value="更新">
+</form>
 
 
 </body>

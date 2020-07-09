@@ -30,7 +30,7 @@ foreach ($rows as $row) {
 
 foreach ($rows2 as $row) {
     ?>
-    <div class="center" style="padding: 30px; text-align:left;">
+    <div class="center" style="padding: 30px; text-align:center;">
         <table style="width: 80%;margin:0px auto;padding:5px">
             <tr>
                 <td>個人資料</td>

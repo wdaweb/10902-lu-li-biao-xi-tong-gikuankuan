@@ -9,9 +9,9 @@ $user = $pdo -> query($sql)->fetch(PDO::FETCH_ASSOC);
 if(empty($_SESSION) || $_SESSION['login']==0){
 
     if($user){
-        to("/admin.php");
+        to("../admin.php");
     }else{
-        to("/admin.php");
+        to("../admin.php");
     }
 }else{
 $_SESSION['login']=0;
