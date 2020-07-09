@@ -19,6 +19,13 @@
     position: relative;
     margin: 10px auto;
     padding: 20px;
+    box-shadow: black 5px 5px 5px;
+    text-align: center;
+
+}
+img{
+
+border: white solid 2px;
 }
 .card2{
     width: 100px;
