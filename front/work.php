@@ -23,6 +23,13 @@
     text-align: center;
 
 }
+
+.card:hover{
+    color:black;
+    background: white;
+  
+
+}
 img{
 
 border: white solid 2px;

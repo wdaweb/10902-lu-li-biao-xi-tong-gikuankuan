@@ -24,7 +24,7 @@ foreach ($rows as $row) {
     </div>
     <input type="submit" value="更改">
     <div>
-        <img src="img/1.jpg" alt="" style="width: 300px; height: 300px;border-radius: 150px; object-fit:cover;padding:10px " class="center">
+        <img src="http://220.128.133.15/s1090210/resume/img/1.jpg" alt="" style="width: 300px; height: 300px;border-radius: 150px; object-fit:cover;padding:10px " class="center">
     </div>
     </form>
 <?php } ?>

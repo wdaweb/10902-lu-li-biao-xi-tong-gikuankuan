@@ -6,6 +6,7 @@ $rows = $pdo->query($sql)->fetchAll();
 ?>
 
 <h3>技能/證照</h3>
+<div style="height:600px;overflow:auto;">
 <?php
 foreach ($rows as $row) {
 ?>
@@ -34,3 +35,4 @@ foreach ($rows as $row) {
 
 
 <?php } ?>
+</div>

@@ -25,7 +25,7 @@ foreach ($rows as $row) {
 ?>
     <tr>
         <td>
-            <textarea name="text" id="" cols="30" rows="10">
+            <textarea name="text" id="" cols="80" rows="10" >
                 <?= $row['text']; ?>
             </textarea>
         </td>
